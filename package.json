@@ -9,37 +9,37 @@
         "lint": "prettier --write \"src/**/*.ts\""
     },
     "engines": {
-        "node": ">=22.x",
-        "yarn": ">=1.17.3"
+        "node": "22.x",
+        "npm": ">=10.x"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/consumet/consumet.ts.git"
+        "url": "git+https://github.com/Murugandot6/api-consumet.git"
     },
     "author": "prince-ao <princead@tutanota.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/consumet/consumet.ts/issues"
+        "url": "https://github.com/Murugandot6/api-consumet/issues"
     },
-    "homepage": "https://github.com/consumet/consumet.ts#readme",
+    "homepage": "https://github.com/Murugandot6/api-consumet#readme",
     "dependencies": {
-        "@consumet/extensions": "github:consumet/consumet.ts",
-        "@fastify/cors": "^8.5.0",
-        "@types/node": "^18.11.17",
-        "@types/ws": "^8.5.3",
-        "axios": "^1.0.0",
+        "@consumet/extensions": "^1.0.0",
+        "@fastify/cors": "^9.0.1",
+        "@types/node": "^20.14.0",
+        "@types/ws": "^8.5.10",
+        "axios": "^1.7.2",
         "chalk": "4.1.2",
         "cheerio": "1.0.0-rc.12",
-        "dotenv": "^16.0.3",
-        "fastify": "^4.10.2",
-        "ioredis": "^5.2.4",
+        "dotenv": "^16.4.5",
+        "fastify": "^4.28.0",
+        "ioredis": "^5.4.1",
         "reconnecting-websocket": "^4.4.0",
-        "ts-node": "^10.9.1",
-        "ws": "^8.8.1"
+        "ts-node": "^10.9.2",
+        "ws": "^8.17.0"
     },
     "devDependencies": {
-        "nodemon": "3.0.1",
-        "prettier": "^3.0.0",
-        "typescript": "5.3.3"
+        "nodemon": "3.1.4",
+        "prettier": "^3.3.2",
+        "typescript": "5.4.5"
     }
 }
